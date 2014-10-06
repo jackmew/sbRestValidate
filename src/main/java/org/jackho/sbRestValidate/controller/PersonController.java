@@ -22,10 +22,10 @@ public class PersonController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(PersonController.class);
 
 	
-	@RequestMapping("/")
-	public String start(){
-		return "start";
-	}
+//	@RequestMapping("/")
+//	public String start(){
+//		return "start";
+//	}
 	
 	@Value("${application.message:Hello World}")
 	private String message = "Hello World";
