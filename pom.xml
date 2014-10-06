@@ -32,7 +32,7 @@
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
     </dependency>
-    <!-- jsp -->
+    <!-- jsp 
     <dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -47,5 +47,11 @@
 		<groupId>javax.servlet</groupId>
 		<artifactId>jstl</artifactId>
 	</dependency>
+	-->
+	<!-- Thymeleaf -->
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
   </dependencies>
 </project>

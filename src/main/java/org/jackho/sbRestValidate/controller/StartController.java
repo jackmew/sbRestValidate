@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-public class PersonController {
+public class StartController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(PersonController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(StartController.class);
 
 	
 //	@RequestMapping("/")
